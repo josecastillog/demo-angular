@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.google-login-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border: none;
+  background-color: #fff;
+  color: #757575;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.google-login-button:hover {
+  background-color: #f1f1f1;
+}
+
+.google-login-button .google-logo {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-image: url("https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 8px;
+}
+
+.google-login-button .google-text {
+  display: inline-block;
+}
