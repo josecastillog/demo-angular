@@ -26,6 +26,7 @@ export class LoginComponentComponent {
       //message will contain facebook user and details
       const statusCode = message.data.statusCode;
       googleWindow!.close();
+      console.log(message.data.pop)
       if (statusCode === 200) {
         this.router.navigate(['/landing']);
       }
